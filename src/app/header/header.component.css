@@ -14,6 +14,11 @@ a {
   min-width: 100px;
   text-align: center;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 a:hover {
   background: #e72929;
@@ -24,6 +29,7 @@ a:hover {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 a.logo {

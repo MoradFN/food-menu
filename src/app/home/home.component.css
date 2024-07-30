@@ -1,0 +1,32 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 2rem;
+}
+li a:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+ul li a {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  margin: 0.5 rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #e72929;
+}
+
+img {
+  height: 14rem;
+  width: auto;
+  object-fit: cover; /* This ensures that images cover the area without distortion*/
+}
