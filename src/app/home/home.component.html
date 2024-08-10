@@ -2,8 +2,14 @@
   <li *ngFor="let foodCategory of foodCategories">
     <a
       ><img src="{{ foodCategory.imageUrl }}" alt="" />
-      <div class="content">{{ foodCategory.name }}</div>
-      <div class="content">{{ foodCategory.description }}</div>
+      <div class="content">
+        <div class="name">{{ foodCategory.name }}</div>
+        <div class="description">{{ foodCategory.description }}</div>
+        <div class="cooking-time">
+          <span>🕒</span>
+          {{ foodCategory.cookingTime }}
+        </div>
+      </div>
     </a>
   </li>
 </ul>

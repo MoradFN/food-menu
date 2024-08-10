@@ -13,6 +13,7 @@ export class FoodCategoryService {
         1,
         'Alacarte',
         'Alacarte meny med alla rätter. Varje kategori har sin egen meny.',
+        '15-25 min',
         ['Alacarte'],
         'images/foods/food-category-images/alacartem.png'
       ),
@@ -20,6 +21,7 @@ export class FoodCategoryService {
         2,
         'Falafel',
         'Falafel meny med alla rätter. Varje kategori har sin egen meny.',
+        '10-15 min',
         ['Falafel'],
         'images/foods/food-category-images/Falafel.png'
       ),
@@ -27,6 +29,7 @@ export class FoodCategoryService {
         3,
         'Gyros',
         'Gyros meny med alla rätter. Varje kategori har sin egen meny.',
+        '10-15 min',
         ['Gyros'],
         'images/foods/food-category-images/Gyroshem.jpg'
       ),
@@ -34,6 +37,7 @@ export class FoodCategoryService {
         4,
         'Hamburgare',
         'Hamburgare meny med alla rätter. Varje kategori har sin egen meny.',
+        '15-20 min',
         ['Hamburgare'],
         'images/foods/food-category-images/Hamburgare.png'
       ),
@@ -41,6 +45,7 @@ export class FoodCategoryService {
         5,
         'Kebab',
         'Kebab meny med alla rätter. Varje kategori har sin egen meny.',
+        '10-15 min',
         ['Kebab'],
         'images/foods/food-category-images/Kebab.png'
       ),
@@ -48,6 +53,7 @@ export class FoodCategoryService {
         6,
         'Kyckling',
         'Kyckling meny med alla rätter. Varje kategori har sin egen meny.',
+        '10-15 min',
         ['Kyckling'],
         'images/foods/food-category-images/kycklingkort2.jpg'
       ),
@@ -55,6 +61,7 @@ export class FoodCategoryService {
         7,
         'Pizza',
         'Pizza meny med alla rätter. Varje kategori har sin egen meny.',
+        '10-15 min',
         ['Pizza'],
         'images/foods/food-category-images/Pizzahem.jpg'
       ),
@@ -62,6 +69,7 @@ export class FoodCategoryService {
         8,
         'Sallad',
         'Sallad meny med alla rätter. Varje kategori har sin egen meny.',
+        '10-15 min',
         ['Sallad'],
         'images/foods/food-category-images/Salladhem.jpg'
       ),
